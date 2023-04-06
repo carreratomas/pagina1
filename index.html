@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="icon" href="imagenes/icono.png" type="icon" />
+</head>
+
+<body>
+    <div>
+        <!-- TODO ESTARA DENTRO DE ESTE DIV -->
+
+        <header>
+            <!-- CABEZA DE LA PAGINA -->
+            <ul class="busqueda">
+                <li class="item">x</li>
+                <li class="item">x</li>
+            </ul>
+        </header>
+
+        <div class="tronco">
+            <div class="arribaindex">
+                <!-- CUERPO SUPERIOR DE LA PAGINA, donde estara la informacion y el espacio para logearte -->
+
+                <div class="contenedor">
+                    <div class="login">
+                        <form id="formulariologin">
+                            <!-- FORMULARIO PARA INICIAR SESION -->
+
+
+                            <div>
+                                <label for="nombredeusuario">Nombre de usuario</label>
+                            </div>
+
+                            <div>
+                                <input type="text" name="nombredeusuario" id="nombredeusuario" value="" placeholder="Minimo 5 caracteres" maxlength="20" required>
+                            </div>
+
+
+                            <div>
+                                <label for="contrasena">Contraseña</label>
+                            </div>
+
+                            <div>
+                                <input type="password" name="contrasena" id="contrasena" value="" placeholder="Minimo 5 caracteres" maxlength="20" required>
+                            </div>
+
+                            <div class="separacion">
+                                <label for="captcha">Verificacion de Captcha</label>
+                            </div>
+
+                            <!--CAPTCHA-->
+                            <div class="captcha">
+                                <input class="boxescaptcha" type="text" id="introducircaptcha" value="" required maxlength="5" />
+
+                                <input class="boxescaptcha" type="text" id="textcaptcha" value="" readonly />
+
+                                <button class="boxescaptcha" id="reload">↻</button>
+                            </div>
+
+                            <div>
+                                <button id="botoninicio">Log In</button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="infoindex">
+                        <!-- INFORMACION ADICIONAL -->
+                        <p>Unirse es gratis y su uso, sencillo. Continúa para iniciar sesion y descargar juegos, la solución digital líder entre los jugadores de PC. </p>
+                        <ul>
+                            <li>Compra y descarga juegos completos.</li>
+                            <li>Únete a la Comunidad X.</li>
+                            <li>Organiza una partida, un torneo o una fiesta LAN.</li>
+                            <li>O participa en las creaciones de la comunidad.</li>
+                            <li>Recibe actualizaciones automáticas de juegos</li>
+                            <li>Notificate con nuestras actualizaciones.</li>
+                            <li>Crea grupos de amigos y diviertete con ellos y ¡mucho más!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="abajoindex">
+                <!-- CUERPO INFERIOR DE LA PAGINA, aqui se encontraran 3 cuerpo para darle mas informacion a la pagina -->
+                <div class="cuerpoindex">
+                    <h2>COMPRA JUEGOS OFICIALES</h2>
+                    <p>Podras descargar los ultimos lanzamientos en juegos, shooters, RPG, etc</p>
+                </div>
+                <div class="cuerpoindex">
+                    <h2>UNETE A NUESTRA COMUNIDAD</h2>
+                    <p>Inicia sesion para unirte a nuestra comunidad no toxica de usuarios</p>
+                </div>
+                <div class="cuerpoindex">
+                    <h2>HAZ NUEVOS AMIGOS</h2>
+                    <p>Podras jugar con tus amigos a todos los juegos desde esta plataforma</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <!-- PIE DE LA PAGINA, gmails de soporte -->
+            <p>Email de contacto: <a href="mailto:tompik14@gmail.com">tompik14@gmail.com</a> - <a href="mailto:matytasrust@gmail.com">matytasrust@gmail.com</a></p>
+        </footer>
+    </div>
+    <script src="javascript/javascript.js"></script>
+</body>
+
+</html>
